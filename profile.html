@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Book Profile-page</title>
+    <link rel="stylesheet " href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+    <nav>
+        <div class="nav-left">
+                 <a href="index.html">
+            
+                <!-- <img src="images/logo.png" alt="logo" class="logo"> -->
+                <p><span>Self</span>Book</p>
+                </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-photo-main-mu.jpg"> 
+            </div>
+        </div>
+        <!-- -------------settings-menu---------- -->
+        <div class="settings-menu">
+            <div id="dark-btn" >
+                <span></span>
+                
+
+
+            </div>
+
+
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-photo-main-mu.jpg">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings and privacy
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help and Support
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display and Accessibility
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+
+
+
+
+            </div>
+           
+
+        </div>
+
+
+
+
+
+    </nav>
+
+    <!-- ------PROFILE-PAGE-------- -->
+<!-- div.profile-main-con -->
+<div class="profile-container">
+    <img src="images/cover.png" class="cover-img">
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="images/profile-photo-main-mu.jpg" class="pd-image">
+                <div>
+                    <h3>vaishnavi sharma</h3>
+                    <p>120 Friends - 20 mutual</p>
+                    <img src="images/member-1.png">
+                    <img src="images/member-2.png">
+                    <img src="images/member-3.png">
+                    <img src="images/member-4.png">
+                    
+
+                </div>
+            </div>
+
+        </div>
+        <div class="pd-right">
+            <button type="button"><img src="images/add-friends.png"> Friend </button>
+           <button type="button"><img src="images/message.png">Message </button>
+            
+           <br>
+           <a href=""><img src="images/more.png"></a>
+        </div>
+    </div>
+
+
+    <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Believe in yourself and you can do unbelievable things 
+                    <img src="images/feeling.png">
+
+                </p>
+                <hr>
+                <ul>
+                    <li><img src="images/profile-job.png">Director at 99media Ltd</li>
+                    <li><img src="images/profile-study.png">Studied at Amity University</li>
+                    <li><img src="images/profile-study.png">went to DPS Delhi</li>
+                    <li><img src="images/profile-home.png">Lives in Banglore,India</li>
+                    <li><img src="images/profile-location.png">From Banglore,India</li>
+
+                </ul>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                <a href="">All Photos</a>
+
+                </div>
+
+                <div class="photo-box">
+                    <div><img src="images/photo1.png"></div>
+                    <div><img src="images/photo2.png"></div>
+                    <div><img src="images/photo3.png"></div>
+                    <div><img src="images/photo4.png"></div>
+                    <div><img src="images/photo5.png"></div>
+                    <div><img src="images/photo6.png"></div>
+
+                
+                </div>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                <a href="">All Friends</a>
+
+                </div>
+                <p>120(10 mutual)</p>
+
+                <div class="friends-box">
+                    <div><img src="images/member-1.png"><p>ritu</p></div>
+                    <div><img src="images/member-2.png"><p>pintu</p></div>
+                    <div><img src="images/member-3.png"><p>kitu</p></div>
+                    <div><img src="images/member-4.png"><p>silu</p></div>
+                    <div><img src="images/member-5.png"><p>hello</p></div>
+                    <div><img src="images/member-6.png"><p>hry</p></div>
+                    <div><img src="images/member-7.png"><p>tmhe</p></div>
+                    <div><img src="images/member-8.png"><p>klsj</p></div>
+                    <div><img src="images/member-9.png"><p>yati</p></div>
+
+                
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="post-col">
+
+ <div class="write-post-container">
+              <div class="user-profile">
+                <img src="images/profile-photo-main-mu.jpg">
+                <div>
+                    <p>John Nocholson</p>
+                    <small>Public<i class="fas fa-caret-down"></i></small>
+                </div>
+              </div>
+
+              <div class="post-input-container">
+                <textarea row="3" placeholder="What's on your mind, john"></textarea>
+               <div class="add-post-links">
+                <a href="#"><img src="images/live-video.png"> Live Video</a>
+                <a href="#"><img src="images/photo.png">Photo/Video</a>
+                <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+            </div>
+              </div>
+            </div>
+            
+           <div class="post-container">
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-photo-main-mu.jpg">
+                    <div>
+                        <p>John Nocholson</p>
+                        <span>june 24 2021 , 13:40 pm</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+
+
+
+            
+              <p class="post-text">my name is <span>VAISHNAVI</span> i am a web devloper front-end designer and UI design<a href="#">#hello</a><a href="#">#Youtube channel</a></p>
+              <img src="images/feed-image-1.png" class="post-img">
+             <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">12</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-photo-main-mu.jpg"><i class="fas fa-caret-down "></i>
+                    
+
+                </div>
+
+             </div>
+
+
+
+
+           </div>
+
+           <div class="post-container">
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-photo-main-mu.jpg">
+                    <div>
+                        <p>John Nocholson</p>
+                        <span>june 24 2021 , 13:40 pm</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+
+
+
+            
+              <p class="post-text">my name is <span>VAISHNAVI</span> i am a web devloper front-end designer and UI design<a href="#">#hello</a><a href="#">#Youtube channel</a></p>
+              <img src="images/post-my-1.webp" class="post-img">
+             <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">12</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"><i class="fas fa-caret-down "></i>
+                    
+
+                </div>
+
+             </div>
+
+
+
+
+           </div>
+           
+           
+           
+           <div class="post-container">
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-photo-main-mu.jpg">
+                    <div>
+                        <p>John Nocholson</p>
+                        <span>june 24 2021 , 13:40 pm</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+
+
+
+            
+              <p class="post-text">my name is <span>VAISHNAVI</span> i am a web devloper front-end designer and UI design<a href="#">#hello</a><a href="#">#Youtube channel</a></p>
+              <img src="images/post-my-3.jpg" class="post-img">
+             <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">12</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-photo-main-mu.jpg"><i class="fas fa-caret-down "></i>
+                    
+
+                </div>
+
+             </div>
+
+
+
+
+           </div>
+           
+           <div class="post-container">
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-photo-main-mu.jpg">
+                    <div>
+                        <p>John Nocholson</p>
+                        <span>june 24 2021 , 13:40 pm</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+
+
+
+            
+              <p class="post-text">my name is <span>VAISHNAVI</span> i am a web devloper front-end designer and UI design<a href="#">#hello</a><a href="#">#Youtube channel</a></p>
+              <img src="images/post-my-4.jpg" class="post-img">
+             <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">12</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-photo-main-mu.jpg"><i class="fas fa-caret-down "></i>
+                    
+
+                </div>
+
+             </div>
+
+
+
+
+           </div>
+           
+           <div class="post-container">
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-photo-main-mu.jpg">
+                    <div>
+                        <p>John Nocholson</p>
+                        <span>june 24 2021 , 13:40 pm</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+
+
+
+            
+              <p class="post-text">my name is <span>VAISHNAVI</span> i am a web devloper front-end designer and UI design<a href="#">#hello</a><a href="#">#Youtube channel</a></p>
+              <img src="images/my-post-5.jpg" class="post-img">
+             <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">12</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"><i class="fas fa-caret-down "></i>
+                    
+
+                </div>
+
+             </div>
+
+
+
+
+           </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+    
+    <div class="footer">
+        <p>Copyright 2023 -vaishnavi sharma</p>
+
+
+
+
+    </div>
+    </div>
+
+
+   <script src="index.js"></script>
+
+    
+</body>
+</html>
